@@ -1,0 +1,17 @@
+.*
+!.gitignore
+!.perltidyrc
+log
+*~
+blib
+Makefile*
+!Makefile.PL
+*META.*
+MANIFEST*
+!MANIFEST.SKIP
+pm_to_blib
+Makefile
+debian/files
+debian/libcache-arc-perl
+debian/libcache-arc-perl.debhelper.log
+debian/libcache-arc-perl.substvars

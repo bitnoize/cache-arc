@@ -1,0 +1,17 @@
+Source: libcache-arc-perl
+Section: perl
+Priority: optional
+Maintainer: Dmitry Krutikov <mitya@cpan.org>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/Cache-ARC
+
+Package: libcache-arc-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Adaptive replacement cache
+ Adaptive Replacement Cache (ARC) is a page replacement algorithm with better
+ performance than LRU (least recently used) developed at the IBM Almaden
+ Research Center. This is accomplished by keeping track of both frequently
+ used and recently used pages plus a recent eviction history for both.
